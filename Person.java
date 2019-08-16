@@ -2,11 +2,11 @@ public class Person{
     private String personName;
     private  int personBirthday;
 
-    public setPersonName(String personName){
+    public void setPersonName(String personName){
         this.personName=personName;
     }
 
-    public setPersonBirthday(int personBirthday){
+    public void setPersonBirthday(int personBirthday){
         this.personBirthday=personBirthday;
     }
 
@@ -17,9 +17,4 @@ public class Person{
     public int getPersonBirthday(){
         return this.personBirthday;
     }
-
-    
-
-
-
 }

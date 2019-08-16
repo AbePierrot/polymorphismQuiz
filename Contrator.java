@@ -1,4 +1,4 @@
-public class Contractor{
+public class Contractor extends Person{
     private int contractorSalary;
 
     public void  setContractorSalary(int contractorSalary ){
